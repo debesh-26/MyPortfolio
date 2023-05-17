@@ -1,0 +1,29 @@
+.t{
+    width: 50px;
+    height: 25px;
+    background-color: #ccc;
+    border: 1px solid #454242;
+    border-radius: 50px;
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.toggle{
+    width: 15px;
+    height: 15px;
+}
+.ball{
+    width: 22px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    transition: all 0.3s ease;
+}

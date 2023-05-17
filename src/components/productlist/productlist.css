@@ -1,0 +1,39 @@
+.pl{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.pl-texts{
+    margin-bottom: 50px;
+    width: 75%;
+}
+.pl-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.pl-desc{
+    font-size: 14px;
+    font-weight: 400;
+    color: #a4a4a4;
+    margin: 20px 0px;
+}
+.pl-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+    .pl-title {
+      font-size: 25px;
+    }
+    .pl{
+      padding: 20px 10px;
+      margin-top: 18%;
+    }
+  }
